@@ -1,0 +1,15 @@
+{
+  "name": "thietkedatabase",
+  "version": "1.0.0",
+  "description": "Node.js crawler API with MongoDB integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "import": "node scripts/import.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
+  }
+}
